@@ -32,10 +32,7 @@ class AstrologBot():
         print(self.request.json())
 
     def get_random_prediction(self, list_prediction):
-        """Метод случайно выбирает гороскоп из списка
-
-        в max_lenght передается длинна списка.
-        """
+        """Метод случайно выбирает гороскоп из списка"""
         return random.choice(list_prediction)
 
 
