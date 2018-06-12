@@ -1,7 +1,6 @@
 import requests
 import json
 import random
-import time
 from settings import Settings
 
 
